@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sushant Kumar | AI × Public Policy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Safety net: content becomes visible even if app.js fails to load -->
+<script>
+  setTimeout(function () {
+    document.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('in-view'); });
+  }, 900);
+</script>
+
+<div class="grid-bg"></div>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <div class="nav-word">Sushant Kumar</div>
+    <div class="nav-links">
+      <a href="#mission">Mission</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#work">Work</a>
+      <a href="#insights">Insights</a>
+      <a href="#connect">Connect</a>
+    </div>
+    <div class="nav-right">
+      <a href="https://www.linkedin.com/in/sushantkumar-in" target="_blank" rel="noopener noreferrer" class="btn-ghost" style="padding:9px 18px;font-size:13px;">LinkedIn ↗</a>
+      <button class="nav-burger" id="navBurger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="nav-mobile" id="navMobile">
+    <a href="#mission">Mission</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#work">Work</a>
+    <a href="#insights">Insights</a>
+    <a href="#connect">Connect</a>
+  </div>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<header class="hero">
+  <div class="eyebrow">Macro Data Architecture · National Public Policy · Bihar, India</div>
+
+  <div class="hero-top">
+    <div>
+      <h1 class="hero-name">Sushant<br>Kumar</h1>
+      <p class="hero-tagline">I translate dry macro data into <span class="mark">high-contrast visual architecture.</span></p>
+      <p class="hero-sub">Bridging statistical analysis and national public policy to build civic tools and data narratives for the next generation of Indian builders.</p>
+      <div class="hero-ctas">
+        <a href="#work" class="btn-primary">View the Work →</a>
+        <a href="https://www.linkedin.com/in/sushantkumar-in" target="_blank" rel="noopener noreferrer" class="btn-ghost">Connect on LinkedIn ↗</a>
+      </div>
+    </div>
+
+    <div>
+      <div class="photo-frame">
+        <div class="photo-inner">
+          <img src="photo.jpg" data-base="photo" alt="Sushant Kumar"
+               onerror="handleImgError(this, 'photoFallback')">
+          <div class="photo-fallback" id="photoFallback" style="display:none;">
+            <div class="photo-fallback-mono">SK</div>
+            <div class="photo-fallback-file">photo.jpg</div>
+          </div>
+        </div>
+      </div>
+      <div class="photo-caption">SUSHANT KUMAR · BIHAR, IN</div>
+    </div>
+  </div>
+
+  <!-- Signature element: a meta data-chart, in his own LinkedIn format -->
+  <div class="hero-chart reveal">
+    <div class="hero-chart-label">A data story, about telling data stories</div>
+
+    <div class="chart-row">
+      <div class="chart-row-label"><span>Typical post reach</span><span class="num">~10,000</span></div>
+      <div class="chart-track"><div class="chart-fill navy" id="barTypical"></div></div>
+    </div>
+
+    <div class="chart-row">
+      <div class="chart-row-label"><span>"IISc Bangalore's budget" post</span><span class="num">136,226</span></div>
+      <div class="chart-track"><div class="chart-fill gold" id="barBest"></div></div>
+    </div>
+
+    <div class="chart-note">Data translates to leverage. A single structural analysis of national research funding outperformed this account's typical reach by 13x. This is the architecture of an effective data narrative.</div>
+  </div>
+
+  <div class="hero-stats reveal">
+    <div class="hero-stat">
+      <div class="hero-stat-num">12 Lakh</div>
+      <div class="hero-stat-label">participants outranked at MY Bharat Budget Quest 2026</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">Level 5</div>
+      <div class="hero-stat-label">MyGov Change Maker: the platform's highest tier</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">136K+</div>
+      <div class="hero-stat-label">impressions on a single LinkedIn post</div>
+    </div>
+  </div>
+</header>
+
+<!-- ═══ MISSION ═══ -->
+<section id="mission" class="section">
+  <div class="eyebrow reveal">The Mission</div>
+  <p class="mission-quote reveal">"Complex public data shouldn't require a policy degree to understand it."</p>
+  <p class="mission-body reveal">
+    I bridge the gap between foundational training in <strong>mathematics and computer science</strong> and <strong>national public policy</strong>, to make data literacy accessible to the next generation of Indian builders, not just those already inside the system. Dawai Sahi Hai, my entry for Vande Bharatam 2026, is this belief applied to a real problem: a medicine verification tool built because no consumer-facing check existed for India's counterfeit drug supply chain. The same instinct drives every data narrative I publish: take a number the public was never shown clearly, and make it impossible to misread.
+  </p>
+</section>
+
+<!-- ═══ ACHIEVEMENTS ═══ -->
+<section class="section section-tight">
+  <div class="section-head reveal">
+    <div class="eyebrow">Recognition</div>
+    <h2>A working record</h2>
+    <p>National competitions and government consultations, in the order they happened.</p>
+  </div>
+
+  <div class="ledger reveal">
+    <div class="ledger-item">
+      <div class="ledger-date">2026</div>
+      <div>
+        <div class="ledger-title">MY Bharat Budget Quest 2026: Top National Finalist</div>
+        <div class="ledger-desc">Selected from roughly 12 lakh participants nationwide; advanced to a virtual policy dialogue with the Hon'ble Prime Minister.</div>
+      </div>
+      <div class="ledger-tag">Dept. of Youth Affairs</div>
+    </div>
+
+    <div class="ledger-item">
+      <div class="ledger-date">2026</div>
+      <div>
+        <div class="ledger-title">MyGov Change Maker: Level 5</div>
+        <div class="ledger-desc">Reached the highest recognition tier on the MyGov platform through sustained civic-tech contribution.</div>
+      </div>
+      <div class="ledger-tag">MyGov, GoI</div>
+    </div>
+
+    <div class="ledger-item">
+      <div class="ledger-date">2026</div>
+      <div>
+        <div class="ledger-title">MoSPI National Accounts Consultation: Contributor</div>
+        <div class="ledger-desc">Submitted a technical comment on GDP methodology, formally acknowledged in a national consultation process.</div>
+      </div>
+      <div class="ledger-tag">MoSPI, GoI</div>
+    </div>
+
+    <div class="ledger-item">
+      <div class="ledger-date">2026</div>
+      <div>
+        <div class="ledger-title">MP LEAD Fellowship 2026: Shortlisted, Interview Round</div>
+        <div class="ledger-desc">Advanced past evaluation rounds to the final interview stage of the Legislative Exposure &amp; Administrative Development Fellowship.</div>
+      </div>
+      <div class="ledger-tag">Office of MP, Rajya Sabha</div>
+    </div>
+  </div>
+
+  <div class="section-head" style="margin-top:40px;margin-bottom:18px;">
+    <div class="eyebrow reveal">Capacity Building: Artificial Intelligence</div>
+  </div>
+  <div class="past-grid reveal">
+    <div class="past-item"><div class="past-item-label">Govt. of Bihar</div><div class="past-item-title">Bihar AI Summit 2026</div></div>
+    <div class="past-item"><div class="past-item-label">NCVET, MSDE</div><div class="past-item-title">Unlocking AI for Everyone</div></div>
+    <div class="past-item"><div class="past-item-label">MeitY, GoI</div><div class="past-item-title">Yuva AI for All</div></div>
+  </div>
+</section>
+
+<!-- ═══ GALLERY / PHOTO UPLOAD ═══ -->
+<section id="gallery" class="section section-tight">
+  <div class="section-head reveal">
+    <div class="eyebrow">Moments</div>
+    <h2>In the room</h2>
+    <p>Photos from the work above. Drop your own in to replace these placeholders, no code required.</p>
+  </div>
+
+  <div class="gallery-grid reveal" id="galleryGrid"></div>
+</section>
+
+<!-- ═══ WORK ═══ -->
+<section id="work" class="section">
+  <div class="section-head reveal">
+    <div class="eyebrow">Work</div>
+    <h2>What I've built</h2>
+    <p>From a national competition entry to a self-directed security project. Built, not just proposed.</p>
+  </div>
+
+  <div class="work-grid reveal">
+    <div class="work-card">
+      <div>
+        <div class="work-tag">Vande Bharatam 2026</div>
+        <div class="work-title">Dawai Sahi Hai</div>
+        <p class="work-desc">A smartphone-first medicine verification tool. One in five medicine strips in India is counterfeit and the government's own QR system can be copied. This checks scan-volume anomalies and community reports instead, patterns a copied code can't fake.</p>
+        <a href="#" class="work-link placeholder">↳ add your live link here</a>
+      </div>
+    </div>
+
+    <div class="work-card">
+      <div>
+        <div class="work-tag">Applied Security Engineering</div>
+        <div class="work-title">SecureLink Pro</div>
+        <p class="work-desc">A self-contained, peer-to-peer encrypted browser chat app with glassmorphism UI, encrypted image sharing, and SAS-based MITM verification, built and deployed from scratch. The same primitives, encrypted key exchange and out-of-band verification, are exactly what secure government and citizen communication systems depend on.</p>
+        <a href="#" class="work-link placeholder">↳ add your live link here</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-head" style="margin-top:48px;margin-bottom:24px;">
+    <div class="eyebrow reveal">Earlier Submissions</div>
+  </div>
+  <div class="past-grid reveal">
+    <div class="past-item"><div class="past-item-label">MyGov</div><div class="past-item-title">8th Central Pay Commission: Competency-Linked Increment Memorandum</div></div>
+    <div class="past-item"><div class="past-item-label">MyGov</div><div class="past-item-title">IDY 2026: "Physiology of Yoga" E-Poster</div></div>
+    <div class="past-item"><div class="past-item-label">MyGov</div><div class="past-item-title">Gyan Deep: National Library Logo & Brand Sheet</div></div>
+    <div class="past-item"><div class="past-item-label">MyGov</div><div class="past-item-title">National E-Nagar Logo Design</div></div>
+    <div class="past-item"><div class="past-item-label">MyGov</div><div class="past-item-title">Jan Aushadhi Diwas Tagline Contest</div></div>
+  </div>
+</section>
+
+<!-- ═══ INSIGHTS ═══ -->
+<section id="insights" class="section section-tight">
+  <div class="section-head reveal">
+    <div class="eyebrow">Featured Insights</div>
+    <h2>From the LinkedIn feed</h2>
+    <p>LinkedIn is where these ideas are published first. This is the highlight reel. The rest is there.</p>
+  </div>
+
+  <div class="insight-list reveal">
+    <div class="insight-item">
+      <div>
+        <div class="insight-text">IISc Bangalore is India's #1 research university, yet its entire institutional budget is smaller than a single MIT department.</div>
+        <div class="insight-meta">730 reactions · 92 comments</div>
+      </div>
+      <div class="insight-num"><div class="insight-num-val">136,226</div><div class="insight-num-label">Impressions</div></div>
+    </div>
+
+    <div class="insight-item">
+      <div>
+        <div class="insight-text">A Tier-3 CS student and an IITian now have the exact same access to Claude, GitHub, and Stack Overflow.</div>
+        <div class="insight-meta">37 reactions · 6 comments</div>
+      </div>
+      <div class="insight-num"><div class="insight-num-val">20,031</div><div class="insight-num-label">Impressions</div></div>
+    </div>
+
+    <div class="insight-item">
+      <div>
+        <div class="insight-text">IIT graduates run Google, Microsoft, and IBM. But zero IITs rank in the global Top 100 universities.</div>
+        <div class="insight-meta">59 reactions · 21 comments</div>
+      </div>
+      <div class="insight-num"><div class="insight-num-val">13,723</div><div class="insight-num-label">Impressions</div></div>
+    </div>
+
+    <div class="insight-item">
+      <div>
+        <div class="insight-text">It is mathematically 533x harder to get into AIIMS New Delhi than into most Ivy League schools.</div>
+        <div class="insight-meta">62 reactions · 13 comments</div>
+      </div>
+      <div class="insight-num"><div class="insight-num-val">11,459</div><div class="insight-num-label">Impressions</div></div>
+    </div>
+  </div>
+
+  <div class="linkedin-cta reveal">
+    <div class="linkedin-cta-text">
+      <h3>Every new data story goes here first.</h3>
+      <p>Follow along for the next one.</p>
+    </div>
+    <a href="https://www.linkedin.com/in/sushantkumar-in" target="_blank" rel="noopener noreferrer" class="btn-linkedin">Follow on LinkedIn ↗</a>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer id="connect" class="footer">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-word">Sushant Kumar</div>
+      <div class="footer-loc">Bihar, India · Top National Finalist, MY Bharat</div>
+    </div>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/sushantkumar-in" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="#work">Work</a>
+      <a href="#mission">Mission</a>
+    </div>
+  </div>
+  <div class="footer-note">Built and maintained independently.</div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
